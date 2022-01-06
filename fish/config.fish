@@ -17,7 +17,7 @@ function up
 end
 
 function s
-	pacman -Ss $argv
+	yay -Ss $argv
 end
 
 function pa
