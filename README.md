@@ -6,6 +6,7 @@
 
 #### Themes
 
+- [Nebula](https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme)
 - [Moonlight](https://marketplace.visualstudio.com/items?itemName=atomiks.moonlight)
 - [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 
@@ -24,6 +25,8 @@
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Solar Lint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+- [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 ### Fonts
 - [Monaco](https://aur.archlinux.org/packages/ttf-monaco)
