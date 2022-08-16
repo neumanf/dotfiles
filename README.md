@@ -13,6 +13,7 @@
 #### TS/JS
 
 - [Abracadabra](https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra)
+- [TypeScript Barrel Generator](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-typescript-exportallmodules)
 
 #### C#
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt-vscode.roslynator)
