@@ -41,6 +41,7 @@ antigen apply
 # Aliases       #
 #################
 
+alias ls='ls --color=auto'
 alias vim='lvim'
 alias pc='sudo pacman -Sy && sudo pacman -S --noconfirm'
 alias up='sudo pacman -Syu --noconfirm'
