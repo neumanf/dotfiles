@@ -26,7 +26,7 @@
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Solar Lint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+- [Sonar Lint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 - [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 ### Fonts
