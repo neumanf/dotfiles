@@ -48,6 +48,7 @@ alias up='sudo pacman -Syu --noconfirm'
 alias s='yay -Ss'
 alias pa='yay -S --noconfirm'
 alias gc='git add . && git commit -m'
+alias drma='docker stop $(docker ps -q) && docker rm $(docker ps -q)'
 
 project() {
   PROJECT_DIR='~/Projects/project'
