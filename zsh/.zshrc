@@ -43,12 +43,12 @@ antigen apply
 
 alias ls='ls --color=auto'
 alias vim='lvim'
-alias pc='sudo pacman -Sy && sudo pacman -S --noconfirm'
+alias pc='sudo pacman -S --noconfirm'
 alias up='sudo pacman -Syu --noconfirm'
 alias s='yay -Ss'
 alias pa='yay -S --noconfirm'
 alias gc='git add . && git commit -m'
-alias drma='docker stop $(docker ps -q) && docker rm $(docker ps -q)'
+alias drma='docker stop $(docker ps -qa) && docker rm $(docker ps -qa)'
 
 project() {
   PROJECT_DIR='~/Projects/project'
