@@ -34,6 +34,7 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle joshskidmore/zsh-fzf-history-search
 antigen bundle BrandonRoehl/zsh-clean
+antigen bundle hlissner/zsh-autopair
 
 antigen apply
 
