@@ -1,0 +1,3 @@
+insomnia-bin
+jetbrains-toolbox
+spotify

@@ -1,0 +1,16 @@
+chromium
+code
+dbeaver
+docker
+dropbox
+firefox
+flameshot
+latte-dock
+noto-fonts-emoji
+nodejs
+npm
+obs-studio
+obsidian
+python-pip
+zellij
+zsh
