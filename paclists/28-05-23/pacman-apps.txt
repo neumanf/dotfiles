@@ -3,7 +3,6 @@ code
 dbeaver
 discord
 docker
-dropbox
 firefox
 flameshot
 latte-dock
