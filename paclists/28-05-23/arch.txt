@@ -1,4 +1,3 @@
-amd-ucode
 archlinux-keyring
 autoconf
 automake
@@ -19,8 +18,6 @@ neovim
 network-manager-applet
 networkmanager
 ntfs-3g
-nvidia
-nvidia-settings
 trash-cli
 unrar
 unzip
