@@ -1,6 +1,7 @@
 chromium
 code
 dbeaver
+discord
 docker
 dropbox
 firefox
