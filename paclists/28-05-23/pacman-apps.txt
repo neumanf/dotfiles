@@ -12,6 +12,7 @@ nodejs
 npm
 obs-studio
 obsidian
+openvpn
 python-pip
 zellij
 zsh
