@@ -2,3 +2,4 @@ dropbox
 insomnia-bin
 jetbrains-toolbox
 spotify
+espanso-bin

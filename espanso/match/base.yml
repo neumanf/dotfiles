@@ -1,0 +1,21 @@
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+matches:
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # MR template
+  - trigger: ":mr"
+    replace: |
+             # #1 issue
+             
+             ## O que foi feito?
+             
+             - 
+             
+             ## Preview
