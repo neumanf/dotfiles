@@ -1,14 +1,5 @@
 # For a complete introduction, visit the official docs at: https://espanso.org/docs/
 matches:
-  # Print the current date
-  - trigger: ":date"
-    replace: "{{mydate}}"
-    vars:
-      - name: mydate
-        type: date
-        params:
-          format: "%m/%d/%Y"
-
   # MR template
   - trigger: ":mr"
     replace: |
@@ -19,3 +10,25 @@ matches:
              - 
              
              ## Preview
+
+  - trigger: ":review"
+    replace: |
+             **Ambiente**: Arch Linux
+             
+             **Navegadores**: Firefox
+             
+             **Cenário**:
+            
+             - Logado com o usuário admin
+
+             **O que foi testado:**
+
+             - 
+
+             **Resultado**: APROVADO ✅ ou ERRO ENCONTRADO 🛑
+
+             **Comentários**:
+
+             <details><summary>Comentario</summary>
+
+             </details>

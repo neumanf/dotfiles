@@ -50,18 +50,4 @@ alias s='yay -Ss'
 alias pa='yay -S --noconfirm'
 alias gc='git add . && git commit -m'
 alias drma='docker stop $(docker ps -qa) && docker rm $(docker ps -qa)'
-
-project() {
-  PROJECT_DIR='~/Projects/project'
-  SESSION_UUID='project'
-
-  tmux new -d -s "$SESSION_UUID"
-  tmux send -t"$SESSION_UUID:" "cd $PROJECT_DIR/app1 && npm run dev" Enter
-  tmux splitw -t "$SESSION_UUID:" -dh
-  tmux send -t"$SESSION_UUID:.1" "cd $PROJECT_DIR/app2 && npm run dev" Enter
-  tmux splitw -t "$SESSION_UUID:.1" -dh
-  tmux send -t"$SESSION_UUID:.2" "cd $PROJECT_DIR/app3 && npm run dev" Enter
-  tmux splitw -t "$SESSION_UUID:.2" -dh
-  tmux send -t"$SESSION_UUID:.3" "cd $PROJECT_DIR/app4 && yarn start" Enter
-  tmux attach -t "$SESSION_UUID"
-}
+alias m='python manage.py'

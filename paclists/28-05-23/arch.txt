@@ -24,5 +24,3 @@ unzip
 wget
 xclip
 xdg-utils
-xorg-server
-xorg-xinit
