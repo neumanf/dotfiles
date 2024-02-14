@@ -1,4 +1,3 @@
-dropbox
 insomnia-bin
 jetbrains-toolbox
 spotify
