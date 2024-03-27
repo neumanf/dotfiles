@@ -16,3 +16,4 @@ openvpn
 python-pip
 zellij
 zsh
+exa

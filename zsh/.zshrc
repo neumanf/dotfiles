@@ -1,5 +1,7 @@
 source $HOME/antigen.zsh
 
+source $HOME/Projects/dotfiles/private/.zshrc
+
 #################
 # Configuration #
 #################
@@ -22,6 +24,7 @@ setopt share_history # share history between multiple shells
 setopt HIST_IGNORE_SPACE # Don't record an entry starting with a space.
 
 export PATH="$PATH:/home/$USER/.dotnet/tools:/home/$USER/.local/share/gem/ruby/3.0.0/bin:/home/$USER/.npm-global/bin:/home/$USER/.local/bin:/home/$USER/.deta/bin/deta"
+export GPG_TTY=$(tty)
 
 #################
 # Plugins       #
@@ -42,8 +45,7 @@ antigen apply
 # Aliases       #
 #################
 
-alias ls='ls --color=auto'
-alias vim='lvim'
+alias ls='exa --icons'
 alias pc='sudo pacman -S --noconfirm'
 alias up='sudo pacman -Syu --noconfirm'
 alias s='yay -Ss'
@@ -51,3 +53,4 @@ alias pa='yay -S --noconfirm'
 alias gc='git add . && git commit -m'
 alias drma='docker stop $(docker ps -qa) && docker rm $(docker ps -qa)'
 alias m='python manage.py'
+alias nx='npx nx'
