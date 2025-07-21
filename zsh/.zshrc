@@ -45,10 +45,10 @@ antigen apply
 # Aliases       #
 #################
 
-alias ls='exa --icons'
-alias pc='sudo pacman -S --noconfirm'
-alias up='sudo pacman -Syu --noconfirm'
-alias s='yay -Ss'
+alias ls='ls --color'
+alias pc='sudo dnf install -y'
+alias up='sudo dnf upgrade -y'
+alias s='dnf search'
 alias pa='yay -S --noconfirm'
 alias gc='git add . && git commit -m'
 alias drma='docker stop $(docker ps -qa) && docker rm $(docker ps -qa)'
