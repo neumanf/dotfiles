@@ -30,7 +30,6 @@ export GPG_TTY=$(tty)
 # Plugins       #
 #################
     
-antigen bundle git
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-history-substring-search
