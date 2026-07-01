@@ -1,4 +1,5 @@
 source $HOME/antigen.zsh
+source $HOME/Projects/dotfiles/zsh/headline.zsh-theme
 
 source $HOME/Projects/dotfiles/private/.zshrc
 
@@ -23,7 +24,7 @@ setopt hist_save_no_dups # Don't write duplicate entries in the history file.
 setopt share_history # share history between multiple shells
 setopt HIST_IGNORE_SPACE # Don't record an entry starting with a space.
 
-export PATH="$PATH:/home/$USER/.dotnet/tools:/home/$USER/.local/share/gem/ruby/3.0.0/bin:/home/$USER/.npm-global/bin:/home/$USER/.local/bin:/home/$USER/.deta/bin/deta"
+export PATH="$PATH:/home/$USER/.npm-global/bin:/home/$USER/.local/bin"
 export GPG_TTY=$(tty)
 
 #################
@@ -34,7 +35,6 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle joshskidmore/zsh-fzf-history-search
-antigen bundle BrandonRoehl/zsh-clean
 antigen bundle hlissner/zsh-autopair
 antigen bundle zsh-users/zsh-syntax-highlighting
 
