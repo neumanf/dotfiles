@@ -1,3 +1,0 @@
-[submodule "private"]
-	path = private
-	url = git@github.com:neumanf/private-dotfiles.git

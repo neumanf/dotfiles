@@ -1,6 +1,5 @@
 source $HOME/antigen.zsh
 source $HOME/Projects/dotfiles/zsh/headline.zsh-theme
-source $HOME/Projects/dotfiles/private/.zshrc
 
 eval "$(~/.local/bin/mise activate zsh)"
 
